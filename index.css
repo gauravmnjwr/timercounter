@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #150050;
+}
+
+p {
+    text-align: center;
+    color: #fff;
+    text-shadow: 0 0 4px #fff;
+    margin-top: 25vh;
+    font-size: 100px;
+}
+
+.tool-btn {
+    background-color: #FB2576;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.tool-btn button {
+    transition: .2s;
+    background-color: #fff;
+    padding: 15px 30px;
+    border-radius: 5px;
+    margin: 0 10px;
+    border: 0;
+    outline: 0;
+/*     box-shadow: 0 0 10px #aaf; */
+}
+
+.tool-btn button:hover {
+    background-color: #aaa;
+}
